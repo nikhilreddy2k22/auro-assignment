@@ -1,0 +1,7 @@
+Flask
+psycopg2
+sentence-transformers
+numpy
+scikit-learn
+together
+dotenv

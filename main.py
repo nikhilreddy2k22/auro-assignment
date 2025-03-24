@@ -1,13 +1,10 @@
 from flask import Flask, request, jsonify
 from sentence_transformers import SentenceTransformer
 import psycopg2
-import ollama
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
 from together import Together
-import requests
-from openai import OpenAI
 import os
 from connection import DB_CONFIG
 # Initialize Flask app
